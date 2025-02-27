@@ -1,10 +1,4 @@
 def convert_to_fasta(input_file, output_file):
-    """
-    Convert a file with one sequence per line into a FASTA format file.
-
-    :param input_file: Path to the input file containing sequences (one per line).
-    :param output_file: Path to the output FASTA file.
-    """
     try:
         with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
             sequence_number = 1
